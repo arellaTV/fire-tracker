@@ -25,13 +25,13 @@ module.exports = function(environment) {
       // when it is created
     },
     metricsAdapters: [
-      // {
-      //   name: 'GoogleTagManager',
-      //   environments: ['development', 'production'],
-      //   config: {
-      //     id: 'GTM-585PL29'
-      //   }
-      // }
+      {
+        name: 'GoogleTagManager',
+        environments: ['development', 'production'],
+        config: {
+          id: 'GTM-585PL29'
+        }
+      },
       {
         name: 'GoogleAnalytics',
         environments: ['development', 'production'],
